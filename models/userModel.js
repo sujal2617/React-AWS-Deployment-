@@ -28,6 +28,3 @@ const UserModel = {
         return dynamodb.delete(params).promise(); }
 };
 module.exports = UserModel;
-
-
-
