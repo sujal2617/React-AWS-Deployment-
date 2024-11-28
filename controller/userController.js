@@ -4,9 +4,9 @@ const AWS = require('aws-sdk');
 // Set your region first
 AWS.config.update({ region: 'us-east-1' });
 
-// Now, create DynamoDB and S3 clients
-const dynamodb = new AWS.DynamoDB.DocumentClient();
-const s3 = new AWS.S3();
+// // Now, create DynamoDB and S3 clients
+// const dynamodb = new AWS.DynamoDB.DocumentClient();
+// const s3 = new AWS.S3();
 
 // UserController logic follows
 const UserController = {
