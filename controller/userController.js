@@ -1,3 +1,4 @@
+const UserModel = require('../models/userModel');
 const AWS = require('aws-sdk');
 
 // Set your region first
